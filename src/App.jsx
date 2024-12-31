@@ -217,7 +217,7 @@ function App() {
         </div>
         <div
           style={{
-            width: "750px",
+            width: "788px",
             backgroundColor: "#FFFFFF",
             margin: "15px 11px 15px 0px",
             borderRadius: "22px",
@@ -426,7 +426,7 @@ function App() {
         </div>
         <div
           style={{
-            width: "545px",
+            width: "770px",
             backgroundColor: "#FFFFFF",
             margin: "15px 11px 15px 0px",
             borderRadius: "22px",
