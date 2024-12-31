@@ -1,0 +1,397 @@
+:root {
+  --arrow-icon: url("./assets/Polygon\ 19.svg");
+}
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Second Section------------------------------> */
+.poppins {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 10px;
+}
+
+.mainbox1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #efeeee;
+}
+
+.mainboxinner1 {
+  display: flex;
+  align-items: center;
+}
+
+.mainboxinner2 {
+  display: flex;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+}
+
+/* Dropdown container styling */
+.dropdown {
+  position: relative;
+  width: 170px;
+  font-family: Arial, sans-serif;
+}
+
+/* Dropdown toggle button styling */
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: #f9f9f9;
+}
+
+.dropdown-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Dropdown menu container */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #efeeee;
+  border-radius: 16px;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+/* Search bar inside dropdown */
+.dropdown-search {
+  width: calc(100% - 20px);
+  margin: 0 10px 10px;
+  font-size: 14px;
+  border: 1px solid #efeeee;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.dropdown-search:focus {
+  border-color: #f3f2f3;
+}
+
+/* Options list */
+.dropdown-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Dropdown option styling */
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f3f2f3;
+  color: #000000;
+}
+
+/* No results found message */
+.dropdown-no-results {
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #777;
+}
+
+/* Smooth transitions for better UX */
+.dropdown,
+.dropdown-toggle,
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+/* -------------------mainBox2-----------------> */
+
+.mainbox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.textContent {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  word-wrap: break-word;
+  width: 590px;
+}
+
+.cardssection {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #dadada;
+  border-radius: 12px;
+}
+
+.cardcontent {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  width: 200px;
+}
+
+.summarybox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------Summary Section-------------> */
+
+.summarybox {
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+}
+.summaryhead {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.summarydef {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.basic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.refbasics li {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+/* -----------------SearchBar box-----------------------> */
+
+.searchbar {
+  margin: 20px;
+  height: 60px;
+  border-radius: 45px;
+}
+.searchbar input {
+  height: 100%;
+  border: 1px solid #e7e7e7;
+  border-radius: 45px;
+  background-color: #f8f8f8;
+  color: #aaaaaa;
+  outline: none;
+}
+
+.searchbutton {
+  position: "absolute";
+  right: "50px";
+  top: "50%";
+  transform: "translateY(-50%)";
+  padding: "5px 10px";
+  font-size: "16px";
+  border: "1px solid #ccc";
+  border-radius: "4px";
+  background-color: "#007bff";
+  color: "white";
+  display: flex;
+  cursor: "pointer";
+  padding: 10px;
+}
+
+
+/* -----------------------Graphs Section------------------------------> */
+
+.datavisualhead{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #efeeee;
+  padding: 0px 0px 10px 0px;
+}
+
+.overviewsection{
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewhead{
+  font-size: 19px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.rowssec{
+  background-color: #F9F9F9;
+  display: flex;
+  padding: 10px;
+  width: 150px;
+  border-radius: 22px;
+  align-items: center;
+
+}
+
+.rowicon{
+  padding: 5px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 12px;
+}
+
+.metadata{
+  height: 150px;
+  width: 210px;
+  padding: 20px;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  border-radius: 22px;
+}
+
+.metadatahead{
+  font-family: "Poppins", serif;
+  color: #001F63;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.metalist{
+  display: flex;
+}
+
+.metaheads{
+  font-family: "Poppins", serif;
+  color: #84919A;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0px 10px 8px 0px;
+
+}
+
+.metaheads li{
+  list-style: none;
+}
+
+.metawork{
+  font-family: "Poppins", serif;
+  color: #252C32;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.metawork li{
+  list-style: none;
+}
+
+.report{
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  margin-top: 25px;
+  background-color: #F9F9F9;
+  border-radius: 22px;
+}
+
+.testhead{
+  display: flex;
+  justify-content: space-between;
+}
+.testlist{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------------data quality section----------------> */
+
+.dataquality{
+  margin-top: 50px;
+}
+.qualityscore{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.qualityscorehead{
+  font-size: 14px;
+  color: #323C4D;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  margin-bottom:30px;
+}
+
+.chartsection{
+  border-radius: 22px;
+  background-color:#F9F9F9 ;
+  padding: 15px;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.marks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marksstatus{
+  color: #84919A;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.chartcards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+}
