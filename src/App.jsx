@@ -4,7 +4,7 @@ import icon1 from "./assets/icon1.svg";
 import icon2 from "./assets/icon2.svg";
 import icon3 from "./assets/icon3.svg";
 import icon4 from "./assets/icon4.svg";
-import icon5 from "./assets/Polygon 19.svg";
+import icon5 from "./assets/Polygon19.svg";
 import icon6 from "./assets/icon5.svg";
 import icon7 from "./assets/icon6.svg";
 import icon8 from "./assets/icon7.svg";
@@ -415,7 +415,6 @@ function App() {
                     alignItems: "center",
                     justifyContent: "center",
                     width: "141px",
-                    backgroundColor: "#000000",
                   }}
                 >
                   <img src={icon7} alt="icon" style={{ marginRight: "4px" }} />
